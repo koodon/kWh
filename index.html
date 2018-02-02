@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>kWh</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+<body>
+    <h2>kWh</h2>
+    <p>Mingi suvaline tekst</p>
+    <div class="container" id="container">
+    <form action="">
+        <input type="date" id="date1" name="start" min="2016-02-01" max="2018-01-31">
+        <label for="date1">Alguskuupäev</label>
+        <br>
+        <input type="date" id="date2" name="end" min="2016-02-01" max="2018-01-31">
+        <label for="date2">Lõppkuupäev</label>
+        <br>
+        <input type="submit" id="submit" value="Lisa">
+        
+        <input type="radio" id="month" name="month">
+        <label for="day">Kuu</label>
+        
+        <input type="radio" id="week" name="week">
+        <label for="month">Nädal</label>
+        
+        <input type="radio" id="day" name="day">
+        <label for="year">Päev</label>
+        <br>
+        <input type="number" id="price" name="price">
+        <label for="price">kWh hind</label>
+        </form>
+    </div>
+    <div class="table">
+        <table>
+    <tr>
+        <th>Aeg</th>
+        <th>Tarbimine</th>
+        <th>Hind</th>
+        </tr>
+        <tr>
+        <td>29 päeva</td>
+        <td>33</td>
+        <td>330</td>
+        </tr>
+        <tr>
+        <td>19 päeva</td>
+        <td>22</td>
+        <td>220</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
